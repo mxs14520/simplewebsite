@@ -1,0 +1,68 @@
+.main{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.log{
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login{
+  height: 350px;
+  width: 350px;
+  border: 2px solid #E8E8E8;
+}
+.login-box{
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.login-button{
+  width: max-content;
+  background-color: #1a75ff;
+  border-radius: 4px;
+  border-color: #1a75ff;
+  color: white;
+  font-size: 15px;
+}
+.login-insta{
+  font-family: 'Cookie', cursive;
+  font-size: 60px;
+}
+.login-or{
+  color: #8c8c8c;
+  font-size: 13px;
+}
+.signup{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #E8E8E8;
+  border-radius: 4px;
+  width: 350px;
+  height: 60px;
+}
+.applink{
+  width: 350px;
+  height: 90px;
+}
+.applink-store{
+  justify-content: space-around;
+  width:250px;
+}
+.applink-appstore{
+  color: white;
+  height: 50px;
+  margin-right: 5px;
+}
+.applink-playstore{
+  color: white;
+  height: 50px;
+  margin-left: 5px;
+}
+.links{
+font-size: 16px;
+}
